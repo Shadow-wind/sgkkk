@@ -1,0 +1,381 @@
+html, body, ul, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    min-height: 80px;
+    background-color: rgb(196, 248, 231);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    min-height: 80px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.name_saita {
+    margin: 0 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    padding: 0 5px;
+}
+
+.header_button a {
+    border: 5px solid #34A853;
+    border-radius: 81px;
+    background-color: #34A853;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* .glavnaia_cont {
+    background-image: url(img/bg.png);
+    border-radius: 2%;
+} */
+
+.glavnaia {
+    max-width: 1806px;
+    min-height: 461px;
+    display: flex;
+    background-image: url(img/bg.png);
+    border-radius: 2%;
+    background-position-x: -260px;
+}
+
+.name_glavnaia {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 119.3%;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.zagolovok_glavnaia {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 119.3%;
+    color: #000000;
+}
+
+.knopki_glav a {
+    min-width: 226px;
+    min-height: 47px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 68px;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    color: rgb(0, 0, 0);
+}
+
+.knopki_glav a:last-child {
+    opacity: 0.5;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: 1.8fr 1fr;
+    padding: 25px 50px;
+}
+
+.colum1 {}
+
+.name_programm {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.zagolovok_program {
+    font-size: 25px;
+}
+
+.spisok_program {
+    font-size: 15px;
+}
+
+.spisok_program span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.columnss {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.progrram_carts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.stolbsi_prog {
+    display: flex;
+}
+
+.stolbsi_prog li {
+    list-style-type: none;
+}
+
+.stolb_prog1 li {
+    min-width: 66.67px;
+    min-height: 17px;
+    background-color: #34A853;
+    border: 3px solid #34A853;
+    margin: 10px;
+    color: white;
+}
+
+.stolb_prog2 li {
+    margin: 10px;
+}
+
+.cart_prog {
+    display: grid;
+    max-width: 232px;
+    max-height: 272px;
+    padding: 20px;
+}
+
+.but_prog a {
+    min-width: 232.26px;
+    min-height: 35px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 68px;
+    padding: 10px 20px;
+    text-decoration: NONE;
+}
+
+.but_prog {
+    text-align: center;
+    margin: 10px;
+}
+
+.zagolovok_prog {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.cart_veb {
+    background-image: url(img/cartsdsd.png);
+    width: 608px;
+    height: 193px;
+    color: white;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+.text_veb {
+    text-align: start;
+    padding: 20px;
+}
+
+.carts_vebinar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.spisok_program ul li {
+    list-style-type: none;
+    display: flex;
+    margin: 15px 0;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    background-image: url(img/pluss.png);
+    background-size: contain;
+    background-position: center;
+    margin-right: 10px;
+}
+
+.icon.open {
+    width: 30px;
+    height: 30px;
+    background-image: url(img/strelkys.png);
+}
+
+.zagolovok_veber {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 119.3%;
+    /* or 36px */
+    color: #000000;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 571px;
+    height: 72px;
+}
+
+.cart_veb {
+    padding: 20px;
+}
+
+.text_veb {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.zagol_veb2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 119.3%;
+    /* identical to box height, or 29px */
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+
+.zagol_veb3 {
+    padding: 15px 0;
+}
+
+.but_veb a {
+    min-width: 316px;
+    min-height: 35px;
+    background: #34A853;
+    border: 10px solid #34A853;
+    box-sizing: border-box;
+    border-radius: 68px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+.cont_advantage {
+    display: flex;
+}
+
+.adv1 {
+    display: flex;
+    margin-right: 50px;
+}
+
+.adv2 {
+    display: flex;
+}
+
+.adv3 {
+    display: flex;
+}
+
+.cont_advantage span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 147.8%;
+    /* or 21px */
+    color: #000000;
+}
+
+.cont_advantage {
+    margin-bottom: 80px;
+}
+
+.text_advantage {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 119.3%;
+    /* identical to box height, or 36px */
+    color: #000000;
+    margin: 50px 0;
+}
+
+.cont_advantage img {
+    margin-right: 20px;
+}
+
+.text_polk {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.polk_cart {
+    background-image: url(img/polk.png);
+    width: 485px;
+    height: 414px;
+    border-radius: 17px;
+}
+
+.polk_texttt {
+    text-align: start;
+    padding: 35px;
+    color: #fff;
+    font-size: 16px;
+    height: 416px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.polk_text1 {
+    margin-bottom: 20px;
+}
+
+.polk_text2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.polk_text3 {
+    margin-bottom: 40px;
+}
+
+.polk_texttt a {
+    text-align: end;
+    min-width: 316px;
+    min-height: 45px;
+    background: #34A853;
+    border: 9px solid #34A853;
+    box-sizing: border-box;
+    border-radius: 68px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.polk_carts{
+    display: flex;
+    justify-content: space-between;
+   margin: 50px 0;
+}
+.polk_cart{
+    margin-right: 10px;
+}
